@@ -1,0 +1,27 @@
+# Imágenes de la web antigua en Wix: nombre-local  identificador-wix
+hero-1.jpg 23c8a6_b7b3fc4d9e32400a9c22bf4147f8ed5b~mv2.jpg
+hero-2.jpg 23c8a6_0b83b3902de947598e4f94275f6fbfc1~mv2.jpeg
+hero-3.jpg 23c8a6_46789e51656a47d6b844e73844d21553~mv2.jpg
+hero-4.jpg 23c8a6_8dc4b31189ce40adaa7c6fca48da0868~mv2.png
+hero-5.jpg 23c8a6_0d72a5d81aa84df9b4934701c4d04364~mv2.png
+equipo.jpg 23c8a6_9649697d16e54f3a8e9b95f0ce8aa115~mv2_d_4996_2184_s_2.jpg
+historia.jpg 23c8a6_c4871a6b76624b72a52e0948ff00d786~mv2.jpg
+invitaciones.jpg 23c8a6_beeb1abfc2474bee8cc5001608de583f~mv2.jpg
+caligrafia.jpg 23c8a6_cc77457826e14f5d9fb10041111109b6~mv2.png
+ilustraciones.jpg 23c8a6_4519edb585fb4b3e89b674312f7fc637~mv2.png
+sitting.jpg 23c8a6_52ac4c783f4843eaae56ebf192187645~mv2.png
+meseros.jpg 23c8a6_2ab7c257cad445df9c96bdc0e632534d~mv2.png
+minutas.jpg 23c8a6_13387efea5fa4321841c4e0d834593c5~mv2.png
+planos.jpg 23c8a6_5943545606fa4e8785443f1f753973ac~mv2.jpg
+misales.jpg 23c8a6_eb13b32b25a44201b718a69f59647d83~mv2.jpg
+mucho-mas.jpg 23c8a6_93b490ed6c7348109af1a124604a3fe9~mv2.png
+novia-marta-sotogrande.jpg 23c8a6_00a500c032c748deb418e380dd38211d~mv2.png
+novia-alex.jpg 23c8a6_34ebc23a5e874911a7d2b84157e6bcb6~mv2.jpg
+novia-marta-ny.jpg 23c8a6_c683512112fa4d1aa9f4e460a9a0672d~mv2.jpg
+novia-anita.jpg 23c8a6_af2aee54445b459ba632737e43da9aa0~mv2.png
+novia-luli.jpg 23c8a6_3ceec5e5aee24022a9d486285cb93032~mv2.jpg
+novia-mer.jpg 23c8a6_9775e98d8b754f2dadd66e53ab239c05~mv2.jpg
+novia-bea.jpg 23c8a6_5a3ee611bd6742a4a6af3b6f60c76a9c~mv2.jpg
+novia-blanca.jpg 23c8a6_b44d7505522843dcad898586cfcc4ec6~mv2.jpg
+novia-clara.jpg 23c8a6_f2dddec591834848b4d0fb958bd05700~mv2.jpg
+novia-guiomar.jpg 23c8a6_adc42082f66a49da99b4390bb25ed92b~mv2.jpg
