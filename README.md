@@ -2,7 +2,7 @@
 
 Web estática (HTML + CSS + JS, sin dependencias ni compilación) para GitHub Pages con el dominio `santapacienciaeventos.com`.
 
-Esta primera versión reproduce las secciones y los textos de la web actual en Wix:
+Esta primera versión reproduce las secciones y los textos de la antigua web en Wix:
 
 | Página | Archivo | Contenido de la web antigua |
 |---|---|---|
@@ -16,7 +16,7 @@ El aviso de protección de datos (RGPD) está en el pie de todas las páginas, c
 
 ## 1. Descargar las fotos (una sola vez, antes de subir)
 
-Las fotos siguen alojadas en Wix. Para que la web no dependa de Wix, descárgalas a `assets/img/`:
+Las fotos se han descargado a `assets/img/` mediante las siguientes utilidades:
 
 - **Mac / Linux**: abre una terminal en esta carpeta y ejecuta `bash descargar-imagenes.sh`
 - **Windows**: clic derecho en `descargar-imagenes.ps1` → *Ejecutar con PowerShell*
@@ -27,21 +27,18 @@ La lista de fotos y sus nombres está en `imagenes.txt`. Para cambiar una foto, 
 
 GitHub Pages no procesa formularios. Crea un formulario gratuito en [Formspree](https://formspree.io) con `info@santapacienciaeventos.com` y sustituye `FORM_ID` en `contacto.html`. Mientras tanto, el botón *Enviar* abre el programa de correo con el mensaje ya escrito. Los botones "Solicita presupuesto" de Prints rellenan el asunto automáticamente.
 
-## 3. Publicar en GitHub Pages
+## 3. Publicación en GitHub Pages
 
-1. Crea un repositorio y sube todo el contenido de esta carpeta (con las fotos ya descargadas) a la rama `main`.
+1. Se ha creado un repositorio y subido todo el contenido de esta carpeta (con las fotos ya descargadas) a la rama `main`.
 2. **Settings → Pages → Build and deployment**: *Deploy from a branch*, rama `main`, carpeta `/ (root)`.
 3. **Settings → Pages → Custom domain**: `santapacienciaeventos.com` (el archivo `CNAME` ya lo incluye).
 
-## 4. Llevar el dominio de Wix a GitHub
+## 4. Llevar el dominio a GitHub
 
-Ahora el dominio carga la web de Wix dentro de un marco (por eso no tiene https). En el panel DNS de quien gestione el dominio:
-
-1. Quita la redirección o el reenvío a Wix y los registros A / CNAME antiguos.
-2. Registros **A** para `@`: `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`
-3. (Opcional) Registros **AAAA** para `@`: `2606:50c0:8000::153`, `2606:50c0:8001::153`, `2606:50c0:8002::153`, `2606:50c0:8003::153`
-4. **CNAME** para `www` → `TU-USUARIO.github.io`
-5. **No toques los registros MX**: son los del correo `info@santapacienciaeventos.com`.
+1. Se quitó la redirección a Wix y los registros A / CNAME antiguos.
+3. Registros **A** para `@`: `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`
+4. (Opcional) Registros **AAAA** para `@`: `2606:50c0:8000::153`, `2606:50c0:8001::153`, `2606:50c0:8002::153`, `2606:50c0:8003::153`
+5. **CNAME** para `www` → `TU-USUARIO.github.io`
 6. Cuando el DNS propague, marca **Enforce HTTPS** en Settings → Pages. Así la web tendrá por fin certificado seguro.
 
 ## Estilo unificado
